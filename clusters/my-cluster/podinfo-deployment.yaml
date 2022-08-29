@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: podinfod
-          image: anetodocker/flux-app:0.0.1 # {"$imagepolicy": "flux-system:podinfo"}
+          image: anetodocker/flux-app:0.0.2 # {"$imagepolicy": "flux-system:podinfo"}
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
