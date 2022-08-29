@@ -10,6 +10,4 @@ spec:
   policy:
     semver:
       range: 0.0.x
-  secretRef:
-    name: docker
 
