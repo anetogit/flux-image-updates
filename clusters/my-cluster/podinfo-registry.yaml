@@ -8,5 +8,5 @@ spec:
   image: anetogit/flux-app
   interval: 1m0s
   secretRef:
-    name: docker
+    name: regcred
 
